@@ -1,3 +1,5 @@
+*.DS_Store*
+
 .coveralls.yml
 docs/_build/**
 _build/**
