@@ -138,8 +138,8 @@ class DefaultSpeciesSet(DefaultClassConfig):
         if len(population) > 1:
             gdmean = mean(distances.distances.values())
             gdstdev = stdev(distances.distances.values())
-            self.reporters.info(
-                'Mean genetic distance {0:.3f}, standard deviation {1:.3f}'.format(gdmean, gdstdev))
+            # self.reporters.info(
+            #     'Mean genetic distance {0:.3f}, standard deviation {1:.3f}'.format(gdmean, gdstdev))
 
     def get_species_id(self, individual_id):
         return self.genome_to_species[individual_id]

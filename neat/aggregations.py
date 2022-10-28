@@ -10,7 +10,6 @@ from operator import mul
 
 from neat.math_util import mean, median2
 
-
 def product_aggregation(x):  # note: `x` is a list or other iterable
     return reduce(mul, x, 1.0)
 
